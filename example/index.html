@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Demo basket</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="js/bundle.js"></script>
+</head>
+<body>
+
+    <template id="product">
+        <div class="product">
+            <img src="" alt=""/>
+            <p class="product-name"></p>
+            <p class="product-description"></p>
+            <button class="product-add">To basket</button>
+        </div>
+    </template>
+
+    <div id="products"></div>
+
+    <div id="basket">
+        <button class="basket-toggle">Basket: <span class="basket-total">0</span> items</button>
+        <div class="basket-container hidden">
+            <button class="checkout">Checkout</button>
+        </div>
+    </div>
+
+</body>
+</html>
